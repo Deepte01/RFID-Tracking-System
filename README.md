@@ -30,6 +30,24 @@ This project is an RFID tracking system that utilizes antennas to monitor RFID t
 
 ### Steps
 
-1. **Clone the Repository**:
-   ```bash
-   git clone [https://github.com/yourusername/rfid-tracking-system.git](https://github.com/Deepte01/RFID-Tracking-System)
+#### Set Up the Database
+
+1. **Install MS SQL Server**: Make sure MS SQL Server is installed on your machine or server.
+2. **Run SQL Scripts**: Execute the SQL scripts provided in the `database` folder to set up the necessary tables and stored procedures.
+
+#### Configure the Application
+
+1. **Open the Project**: Launch the project in Visual Studio.
+2. **Update Connection String**: Modify the database connection string in `App.config` to point to your MS SQL Server instance.
+
+#### Build and Run
+
+1. **Build the Solution**: Compile the solution in Visual Studio.
+2. **Run the Application**: Start the application to begin monitoring RFID tags.
+
+## Usage
+
+1. **Connect Antennas**: Ensure that all RFID antennas are properly connected and configured.
+2. **Launch Application**: Start the WPF application to begin monitoring.
+3. **Monitor Tags**: Use the interface to track RFID tags and view real-time data.
+4. **Generate Reports**: Utilize the reporting features to analyze historical tracking data.
